@@ -1,0 +1,95 @@
+.navbarDiv {
+  display: flex;
+  width: 100%;
+  padding: 20px 24px;
+  position: fixed;
+  z-index: 3;
+  background-color: transparent;
+}
+.leftDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  vertical-align: baseline;
+  margin-left: 5px;
+
+  box-sizing: border-box;
+}
+
+.rightDiv {
+  display: flex;
+  align-items: flex-start;
+  vertical-align: baseline;
+  padding: 8px 0px 0px;
+  position: absolute;
+  top: 30px;
+  right: 60px;
+}
+.zaraHeader {
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  z-index: 3;
+  top: 22px;
+  left: 150px;
+}
+
+.zaraHeader_animated {
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  z-index: 3;
+  top: 22px;
+  left: 150px;
+  animation: fadeIn 3s;
+  
+}
+.sideMenu {
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border: none;
+  margin-right: 50px;
+  position: absolute;
+  left: 17px;
+}
+
+.buttons_black {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  margin: 0px 0px 0px 40px;
+  color: black;
+  cursor: pointer;
+}
+.buttons_white {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  margin: 0px 0px 0px 40px;
+  color: white;
+  cursor: pointer;
+}
+.serachLine {
+  border-bottom: 1px solid black;
+}
+.CartCount {
+  position: absolute;
+  top: 16px;
+  right: 9px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
