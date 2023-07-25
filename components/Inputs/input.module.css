@@ -1,0 +1,19 @@
+.inputLabel {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.input {
+  outline: none;
+  border: 1px solid #e3e3e3;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+
+.input:focus {
+  z-index: -1;
+
+}
+.inputrequired{
+  color: red;
+}

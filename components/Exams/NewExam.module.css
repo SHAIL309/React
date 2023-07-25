@@ -1,0 +1,88 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/src/components/images/add_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.button {
+  display: block;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  border: solid 2px lavenderblush;
+  background-color: white;
+  cursor: pointer;
+  align-items: center;
+  margin: 10px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+form {
+  padding: 10px 5px 10px 5px;
+  width: 100%;
+}
+.button:hover {
+  background-color: lavenderblush;
+}
+.previous_button_div {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  top: 70px;
+  left: 15px;
+}
+.previous_button {
+  outline: none;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  background-color: transparent;
+  border: 1px solid ;
+  cursor: pointer;
+}
+.previous_button:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.time{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}

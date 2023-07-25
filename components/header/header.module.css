@@ -1,0 +1,23 @@
+.content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  width: 100%;
+  background-color: orange;
+}
+.User {
+  justify-content: center;
+  text-align: center;
+  color: yellow;
+  margin-left: 10px;
+  padding: 5px 10px 5px 10px;
+  cursor: none;
+}
+
+.button {
+  padding: 5px 10px 5px 10px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}

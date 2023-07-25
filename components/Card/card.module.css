@@ -1,0 +1,25 @@
+.card {
+  background-color: white;
+  /* opacity: 0.1; */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.card2 {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Update to column layout */
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0px 5px rgba(255, 85, 0, 0.9);
+  padding: 20px;
+  margin: auto;
+  height: auto;
+
+  /* width: 400px; Set a fixed width for the card */
+}
+

@@ -1,0 +1,19 @@
+.textareaLabel {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.textarea {
+  outline: none;
+  border: 1px solid #e3e3e3;
+  padding: 10px 12px;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.textarea:focus {
+  z-index: -1;
+}
+.inputrequired{
+  color: red;
+}
