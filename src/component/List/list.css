@@ -1,0 +1,89 @@
+table {
+  margin: 0px auto;
+}
+th {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 5px;
+}
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+button {
+  transition-duration: 0.5s;
+}
+button:hover {
+  background-color: deeppink;
+  color: yellow;
+}
+.up:active {
+  animation: ups 1s;
+}
+.down:active {
+  animation: downs 1s;
+}
+th {
+  outline-style: double;
+  outline-width: 4px;
+  outline-color: blueviolet;
+}
+tr:hover:nth-child(even) {
+  background-color: greenyellow;
+}
+tr:hover:nth-child(odd) {
+  background-color: lightgreen;
+}
+
+td:focus-within {
+  background-color: aqua;
+  animation: shake 0.8s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes ups {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes downs {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,128 @@
+.form {
+  border: 1px solid black;
+  padding: 10px;
+  border: none;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form:focus-within {
+  background-color: deepskyblue;
+}
+input {
+  margin: 10px;
+  border-radius: 20px;
+  padding: 7px;
+  transition: 0.5s;
+  border: none;
+}
+input:focus {
+  font-size: 15px;
+  outline-width: 4px;
+  outline-style: inset;
+  outline-color: red;
+}
+button {
+  margin: 5px;
+  border-radius: 10px;
+  opacity: 0.9;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.filter {
+  float: right;
+  font-size: 15px;
+  color: deeppink;
+  border-radius: 20px;
+  background-color: yellowgreen;
+  width: 200px;
+  height: 40px;
+  transition: 0.2s;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  border: none;
+
+  outline-color: black;
+  opacity: 0.7;
+}
+.filter:focus-within {
+  opacity: 1;
+  outline-style: inset;
+  outline-width: 4px;
+}
+.filter:hover {
+  color: white;
+  animation: taa 0.5s;
+}
+
+h1 {
+  background-image: linear-gradient(60deg, #e21143, #ffb03a);
+  padding: 15px;
+  border-radius: 80px;
+  cursor: none;
+  outline-style: double;
+  outline-color: ivory;
+  outline-width: 5px;
+}
+h1:hover {
+  color: yellow;
+  animation: shake 0.8s;
+}
+
+label {
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #e21143;
+  border: none;
+  padding: 7px;
+  cursor: none;
+  outline-style: inset;
+}
+.add {
+  padding: 10px;
+  text-align: center;
+}
+.add:active {
+  cursor: wait;
+}
+hr.divide {
+  border-top: 3px solid yellow;
+  border-radius: 50%;
+  border-bottom: 3px solid green;
+  cursor: none;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes taa {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-50px);
+  }
+
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
